@@ -5,7 +5,7 @@
           (func $notify_piececrowned (param $pieceX i32) (param $pieceY i32)))
 
   (memory $mem 1)
-  (global $currentTurn (mut i32) (i32.const 0))
+  (global $currentTurn (mut i32) (i32.const 1))
   (global $WHITE i32 (i32.const 2))
   (global $BLACK i32 (i32.const 1))
   (global $CROWN i32 (i32.const 4))
